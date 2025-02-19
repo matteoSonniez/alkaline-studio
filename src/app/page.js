@@ -280,47 +280,41 @@ function Page() {
       <div className="h-screen overflow-hidden hidden sm:block">
         <div className="absolute z-20 w-screen h-screen unicDiv">
           <div className="relative flex w-screen items-center justify-center h-screen overflow-hidden">
-            <div className="absolute inset-0">
-              <svg className="w-full h-full" preserveAspectRatio="none">
-                <defs>
-                  <mask id="imageMask">
-                    <rect width="100%" height="100%" fill="white" opacity="0" />
-                    <rect
-                      className="mask-rect"
-                      x="0%"
-                      y="0%"
-                      width="100%"
-                      height="100%"
-                      fill="white"
-                    />
-                  </mask>
-                </defs>
-                <image
-                  href={Test14.src}
-                  width="100%"
-                  height="100%"
-                  preserveAspectRatio="xMidYMid slice"
-                  mask="url(#imageMask)"
-                />
-              </svg>
-            </div>
-            <div className="border-container h-[60vh] w-[65vw] flex justify-center items-center relative pointer-events-none">
-              <svg
-                className="absolute inset-0 pointer-events-none"
-                style={{ width: "65vw", height: "60vh" }}
-              >
-                <rect
-                  className="border-rect"
-                  x="0"
-                  y="0"
-                  width="100%"
-                  height="100%"
-                  fill="none"
-                  stroke="white"
-                  strokeWidth="12"
-                  vectorEffect="non-scaling-stroke"
-                />
-              </svg>
+            {/* Définition du masque SVG */}
+            <svg
+              className="absolute inset-0 w-full h-full"
+              preserveAspectRatio="none"
+              aria-hidden="true"
+            >
+              <defs>
+                <mask id="imageMask">
+                  <rect width="100%" height="100%" fill="white" opacity="0" />
+                  <rect
+                    className="mask-rect"
+                    x="0%"
+                    y="0%"
+                    width="100%"
+                    height="100%"
+                    fill="white"
+                  />
+                </mask>
+              </defs>
+            </svg>
+
+            {/* Conteneur de l'image avec le masque appliqué en CSS */}
+            <div
+              className="relative w-full h-full"
+              style={{
+                mask: "url(#imageMask)",
+                WebkitMask: "url(#imageMask)",
+              }}
+            >
+              <Image
+                src="/img4.webp"
+                alt="Image 2"
+                fill
+                style={{ objectFit: "cover" }}
+              />
             </div>
           </div>
         </div>
