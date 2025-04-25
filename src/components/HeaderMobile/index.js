@@ -4,6 +4,7 @@ import Link from "next/link";
 import {
   Freehand,
   Poiret_One,
+  Inconsolata,
 } from "next/font/google";
 import Insta from "@/img/insta.png";
 
@@ -13,7 +14,7 @@ const poppins = Freehand({
   display: "swap",
 });
 
-const poiret = Poiret_One({
+const incon = Inconsolata({
   subsets: ["latin"],
   weight: ["400"],
   display: "swap",
@@ -23,7 +24,7 @@ const INSTAGRAM_USERNAME = "alkaline.studio"; // ← Remplacez par votre nom d'u
 const APP_URL = `instagram://user?username=${INSTAGRAM_USERNAME}`;
 const WEB_URL = `https://instagram.com/${INSTAGRAM_USERNAME}`;
 
-const Index = () => {
+const Index = ({navigatAnime}) => {
   const [showHeader, setShowHeader] = useState(true);
 
   useEffect(() => {
@@ -76,20 +77,24 @@ const Index = () => {
         duration-300
         bg-white
         z-50
+        items-center
         ${showHeader ? "translate-y-0" : "-translate-y-full"}
       `}
     >
-      <Link href="/">
-        <span className={`text-black text-[15px] tracking-wider ${poppins.className}`}>
+      <Link href="/" className="flex items-center">
+        <span className={`text-black text-[13px] tracking-wider ${incon.className}`}>
           alkaline studio
         </span>
       </Link>
       <div
-        className={`flex space-x-8 text-gray-700 text-[12px] items-center tracking-wider ${poiret.className}`}
+        className={`flex space-x-4 text-gray-700 text-[11px] items-center tracking-wider ${incon.className}`}
       >
         <Link href="/production">
           <span>production</span>
         </Link>
+        {/* <button onClick={() => navigatAnime({ path: "/production" })}>
+          production
+        </button> */}
         <Link href="/contact">
           <span>contact</span>
         </Link>
@@ -98,7 +103,7 @@ const Index = () => {
           className="p-1 cursor-pointer"
           aria-label="Voir notre Instagram"
         >
-          <img src={Insta.src} alt="Instagram icon" className="w-5 h-5" />
+          <img src={Insta.src} alt="Instagram icon" className="w-4 h-4" />
         </button>
       </div>
     </div>

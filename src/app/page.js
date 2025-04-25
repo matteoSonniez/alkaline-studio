@@ -174,7 +174,7 @@ export default function Page() {
               }}
             >
               <Image
-                src="/img4.webp"
+                src="/img12.webp"
                 alt="Image 2"
                 fill
                 style={{ objectFit: "cover" }}

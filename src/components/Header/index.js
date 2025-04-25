@@ -1,16 +1,8 @@
 "use client";
 import { useEffect, useState } from "react";
-import Link from "next/link";
 import {
-  Poppins,
-  Inter,
-  PT_Mono,
-  Cormorant_SC,
-  Caveat,
   Freehand,
-  Poiret_One,
   Inconsolata,
-  Raleway,
 } from "next/font/google";
 import Insta from "@/img/insta.png";
 
@@ -32,7 +24,7 @@ const Header = ({ navigatAnime, isDown }) => {
   return (
     <div
       className={`fixed w-full top-0 pt-[8vh] px-[25vw] justify-between flex transform transition-transform duration-300 ${
-        isDown ? "-translate-y-[20vh]" : "translate-y-0"
+        isDown ? "-translate-y-[15vh]" : "translate-y-0"
       }`}
     >
       <button

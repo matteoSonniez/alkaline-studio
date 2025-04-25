@@ -66,9 +66,42 @@ function Page() {
 
   return (
     <div className="flex flex-col items-center pt-[17vh]">
-      {/* You can use isDown in your Header or elsewhere */}
-      {/* <Header isDown={isDown} /> */}
-      <div className="flex-col">
+      {/* mobile version */}
+      <div className="flex flex-col space-y-6 pb-10">
+        <div className="flex justify-center">
+          <img src={Image1.src} className="w-[85vw] h-[66vh] object-cover" alt="" />
+        </div>
+        <div className="flex justify-center">
+          <img src={Image9.src} className="w-[85vw] h-[66vh] object-cover" alt="" />
+        </div>
+        <div className="flex justify-center">
+          <img src={Image3.src} className="w-[85vw] h-[66vh] object-cover" alt="" />
+        </div>
+        <div className="flex justify-center">
+          <img src={Image4.src} className="w-[85vw] h-[66vh] object-cover" alt="" />
+        </div>
+        <div className="flex justify-center">
+          <img src={Image5.src} className="w-[85vw] h-[66vh] object-cover" alt="" />
+        </div>
+        <div className="flex justify-center">
+          <img src={Image6.src} className="w-[85vw] h-[66vh] object-cover" alt="" />
+        </div>
+        <div className="flex justify-center">
+          <img src={Image7.src} className="w-[85vw] h-[66vh] object-cover" alt="" />
+        </div>
+        <div className="flex justify-center">
+          <img src={Image8.src} className="w-[85vw] h-[66vh] object-cover" alt="" />
+        </div>
+        <div className="flex justify-center">
+          <img src={Image9.src} className="w-[85vw] h-[66vh] object-cover" alt="" />
+        </div>
+        <div className="flex justify-center">
+          <img src={Image10.src} className="w-[85vw] h-[66vh] object-cover" alt="" />
+        </div>
+      </div>
+      
+      {/* mobile version */}
+      <div className="flex-col hidden sm:block">
         <div className="flex space-x-[5vw] mb-[10vh]">
           <img src={Image1.src} className="w-[37vw]" alt="" />
           <img src={Image9.src} className="w-[37vw]" alt="" />
