@@ -19,13 +19,17 @@ const poiret = Poiret_One({
   display: "swap",
 });
 
+const INSTAGRAM_USERNAME = "alkaline.studio"; // ← Remplacez par votre nom d'utilisateur
+const APP_URL = `instagram://user?username=${INSTAGRAM_USERNAME}`;
+const WEB_URL = `https://instagram.com/${INSTAGRAM_USERNAME}`;
+
 const Index = () => {
   const [showHeader, setShowHeader] = useState(true);
 
   useEffect(() => {
-    let lastScrollPos = window.pageYOffset; // Position de scroll initiale
-    const threshold = 20;                   // Seuil de 20px pour déclencher l'action
-    let ticking = false;                    // Pour éviter de trop déclencher la callback
+    let lastScrollPos = window.pageYOffset;
+    const threshold = 20;
+    let ticking = false;
 
     const handleScroll = () => {
       if (!ticking) {
@@ -33,15 +37,12 @@ const Index = () => {
           const currentScrollPos = window.pageYOffset;
           const diff = currentScrollPos - lastScrollPos;
 
-          // Si on a descendu de >= 20px depuis lastScrollPos => on masque le header
           if (diff > threshold) {
             setShowHeader(false);
-            lastScrollPos = currentScrollPos; // On met à jour la position de référence
-          }
-          // Si on est remonté de >= 20px depuis lastScrollPos => on ré-affiche le header
-          else if (diff < -threshold) {
+            lastScrollPos = currentScrollPos;
+          } else if (diff < -threshold) {
             setShowHeader(true);
-            lastScrollPos = currentScrollPos; // On met à jour la position de référence
+            lastScrollPos = currentScrollPos;
           }
           ticking = false;
         });
@@ -50,11 +51,16 @@ const Index = () => {
     };
 
     window.addEventListener("scroll", handleScroll);
-
-    return () => {
-      window.removeEventListener("scroll", handleScroll);
-    };
+    return () => window.removeEventListener("scroll", handleScroll);
   }, []);
+
+  // Toujours tenter l'app Instagram, fallback web
+  const handleInstaClick = () => {
+    window.location.href = APP_URL;
+    setTimeout(() => {
+      window.open(WEB_URL, "_blank", "noopener,noreferrer");
+    }, 600);
+  };
 
   return (
     <div
@@ -87,7 +93,13 @@ const Index = () => {
         <Link href="/contact">
           <span>contact</span>
         </Link>
-        <img src={Insta.src} alt="insta" className="w-5 h-5" />
+        <button
+          onClick={handleInstaClick}
+          className="p-1 cursor-pointer"
+          aria-label="Voir notre Instagram"
+        >
+          <img src={Insta.src} alt="Instagram icon" className="w-5 h-5" />
+        </button>
       </div>
     </div>
   );
