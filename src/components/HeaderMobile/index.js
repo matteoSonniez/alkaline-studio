@@ -29,7 +29,7 @@ const Index = ({navigatAnime}) => {
 
   useEffect(() => {
     let lastScrollPos = window.pageYOffset;
-    const threshold = 20;
+    const threshold = 50;
     let ticking = false;
 
     const handleScroll = () => {

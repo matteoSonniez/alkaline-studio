@@ -36,12 +36,12 @@ export default function Page() {
       delay: 3,
       ease: "power2.inOut",
     });
-    gsap.to(".testup", {
-      y: "-100vh",
-      duration: 1,
-      delay: 3,
-      ease: "power2.inOut",
-    });
+    // gsap.to(".testup", {
+    //   y: "-100vh",
+    //   duration: 1,
+    //   delay: 3,
+    //   ease: "power2.inOut",
+    // });
 
     // Setup des masques et bordures
     gsap.set(".mask-rect, .mask-rect2", {
@@ -145,7 +145,7 @@ export default function Page() {
     <div>
       {/* MOBILE VERSION */}
       <div className="block sm:hidden testup">
-        <div className="w-screen h-screen unicDiv2">
+        {/* <div className="w-screen h-screen unicDiv2">
           <div className="relative flex w-screen items-center justify-center h-screen overflow-hidden">
             <svg
               className="absolute inset-0 w-full h-full"
@@ -181,7 +181,7 @@ export default function Page() {
               />
             </div>
           </div>
-        </div>
+        </div> */}
         <div className="flex flex-col px-[10vw] mt-[15vh]">
           <div className="w-[80vw] relative h-[70vh] mb-[7vh]">
             <Image
@@ -242,6 +242,70 @@ export default function Page() {
           <div className="w-[80vw] relative h-[70vh] mb-[7vh] border-[12px] border-gris">
             <Image
               src="/img1.webp"
+              alt="Image 2"
+              fill
+              className="object-cover"
+            />
+          </div>
+          <div className="w-[80vw] relative h-[70vh] mb-[5vh]">
+            <Image
+              src="/img6.webp"
+              alt="Image 2"
+              fill
+              className="object-cover"
+            />
+          </div>
+          <div className="w-[80vw] relative h-[65vh] mb-[3vh]">
+            <Image
+              src="/img19.webp"
+              alt="Image 2"
+              fill
+              className="object-cover"
+            />
+          </div>
+          <div className="w-[60vw] relative h-[45vh] mb-[3vh] border-[2px] border-slate-600 self-center">
+            <Image
+              src="/img22.webp"
+              alt="Image 2"
+              fill
+              className="object-cover"
+            />
+          </div>
+          <div className="w-[85vw] relative h-[65vh] mb-[7vh] self-center">
+            <Image
+              src="/img10.webp"
+              alt="Image 2"
+              fill
+              className="object-cover"
+            />
+          </div>
+          <div className="w-[95vw] relative h-[35vh] mb-[9vh] self-center">
+            <Image
+              src="/img17.webp"
+              alt="Image 2"
+              fill
+              className="object-cover"
+            />
+          </div>
+          <div className="w-[60vw] relative h-[45vh] mb-[7vh]">
+            <Image
+              src="/img18.webp"
+              alt="Image 2"
+              fill
+              className="object-cover"
+            />
+          </div>
+          <div className="w-[80vw] relative h-[65vh] mb-[3vh] border-[12px] border-gris">
+            <Image
+              src="/img21.webp"
+              alt="Image 2"
+              fill
+              className="object-cover"
+            />
+          </div>
+          <div className="w-[95vw] relative h-[35vh] mb-[9vh] self-center border-[2px] border-slate-600">
+            <Image
+              src="/img7.webp"
               alt="Image 2"
               fill
               className="object-cover"

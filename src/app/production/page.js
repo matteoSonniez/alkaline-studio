@@ -1,5 +1,6 @@
 "use client";
 import React, { useState, useEffect, useRef } from "react";
+import Image from "next/image";
 import Header from "@/components/Header2";
 import Image1 from "@/imgprod/img1.jpeg";
 import Image2 from "@/imgprod/img2.jpeg";
@@ -11,8 +12,8 @@ import Image7 from "@/imgprod/img7.jpeg";
 import Image8 from "@/imgprod/img8.jpeg";
 import Image9 from "@/imgprod/img9.jpeg";
 import Image10 from "@/imgprod/img10.jpeg";
-import Lenis from '@studio-freight/lenis';
-import gsap from 'gsap';
+import Lenis from "@studio-freight/lenis";
+import gsap from "gsap";
 
 function Page() {
   const [isVisible, setIsVisible] = useState(false);
@@ -31,7 +32,7 @@ function Page() {
     const lenis = new Lenis({
       duration: 1.2,
       easing: (t) => Math.min(1, 1.001 - Math.pow(2, -10 * t)),
-      smoothWheel: true
+      smoothWheel: true,
     });
 
     function raf(time) {
@@ -60,67 +61,187 @@ function Page() {
       }
     };
 
-    window.addEventListener('scroll', handleScroll);
-    return () => window.removeEventListener('scroll', handleScroll);
+    window.addEventListener("scroll", handleScroll);
+    return () => window.removeEventListener("scroll", handleScroll);
   }, []);
 
   return (
     <div className="flex flex-col items-center pt-[17vh]">
       {/* mobile version */}
-      <div className="flex flex-col space-y-6 pb-10">
-        <div className="flex justify-center">
-          <img src={Image1.src} className="w-[85vw] h-[66vh] object-cover" alt="" />
+      <div className="flex flex-col space-y-6 pb-10 sm:hidden">
+        <div className="flex justify-center w-[85vw] h-[66vh] relative">
+          <Image
+            src="/prodimages/img1.webp"
+            alt="Image 2"
+            fill
+            className="object-cover"
+          />
         </div>
-        <div className="flex justify-center">
-          <img src={Image9.src} className="w-[85vw] h-[66vh] object-cover" alt="" />
+        <div className="flex justify-center w-[85vw] h-[66vh] relative">
+          <Image
+            src="/prodimages/img6.webp"
+            alt="Image 2"
+            fill
+            className="object-cover"
+          />
         </div>
-        <div className="flex justify-center">
-          <img src={Image3.src} className="w-[85vw] h-[66vh] object-cover" alt="" />
+        <div className="flex justify-center w-[85vw] h-[66vh] relative">
+          <Image
+            src="/prodimages/img3.webp"
+            alt="Image 2"
+            fill
+            className="object-cover"
+          />
         </div>
-        <div className="flex justify-center">
-          <img src={Image4.src} className="w-[85vw] h-[66vh] object-cover" alt="" />
+        <div className="flex justify-center w-[85vw] h-[66vh] relative">
+          <Image
+            src="/prodimages/img4.webp"
+            alt="Image 2"
+            fill
+            className="object-cover"
+          />
         </div>
-        <div className="flex justify-center">
-          <img src={Image5.src} className="w-[85vw] h-[66vh] object-cover" alt="" />
+        <div className="flex justify-center w-[85vw] h-[66vh] relative">
+          <Image
+            src="/prodimages/img5.webp"
+            alt="Image 2"
+            fill
+            className="object-cover"
+          />
         </div>
-        <div className="flex justify-center">
-          <img src={Image6.src} className="w-[85vw] h-[66vh] object-cover" alt="" />
+        <div className="flex justify-center w-[85vw] h-[66vh] relative">
+          <Image
+            src="/prodimages/img6.webp"
+            alt="Image 2"
+            fill
+            className="object-cover"
+          />
         </div>
-        <div className="flex justify-center">
-          <img src={Image7.src} className="w-[85vw] h-[66vh] object-cover" alt="" />
+        <div className="flex justify-center w-[85vw] h-[66vh] relative">
+          <Image
+            src="/prodimages/img1.webp"
+            alt="Image 2"
+            fill
+            className="object-cover"
+          />
         </div>
-        <div className="flex justify-center">
-          <img src={Image8.src} className="w-[85vw] h-[66vh] object-cover" alt="" />
+        <div className="flex justify-center w-[85vw] h-[66vh] relative">
+          <Image
+            src="/prodimages/img8.webp"
+            alt="Image 2"
+            fill
+            className="object-cover"
+          />
         </div>
-        <div className="flex justify-center">
-          <img src={Image9.src} className="w-[85vw] h-[66vh] object-cover" alt="" />
+        <div className="flex justify-center w-[85vw] h-[66vh] relative">
+          <Image
+            src="/prodimages/img9.webp"
+            alt="Image 2"
+            fill
+            className="object-cover"
+          />
         </div>
-        <div className="flex justify-center">
-          <img src={Image10.src} className="w-[85vw] h-[66vh] object-cover" alt="" />
+        <div className="flex justify-center w-[85vw] h-[66vh] relative">
+          <Image
+            src="/prodimages/img10.webp"
+            alt="Image 2"
+            fill
+            className="object-cover"
+          />
         </div>
       </div>
-      
-      {/* mobile version */}
+
+      {/* desktop version */}
       <div className="flex-col hidden sm:block">
         <div className="flex space-x-[5vw] mb-[10vh]">
-          <img src={Image1.src} className="w-[37vw]" alt="" />
-          <img src={Image9.src} className="w-[37vw]" alt="" />
+          <div className="w-[37vw] h-[80vh] relative">
+            <Image
+              src="/prodimages/img1.webp"
+              alt="Image 2"
+              fill
+              className="object-cover"
+            />
+          </div>
+          <div className="w-[37vw] h-[80vh] relative">
+            <Image
+              src="/prodimages/img6.webp"
+              alt="Image 2"
+              fill
+              className="object-cover"
+            />
+          </div>
         </div>
         <div className="flex space-x-[5vw] mb-[10vh]">
-          <img src={Image3.src} className="w-[37vw]" alt="" />
-          <img src={Image4.src} className="w-[37vw]" alt="" />
+          <div className="w-[37vw] h-[80vh] relative">
+            <Image
+              src="/prodimages/img3.webp"
+              alt="Image 2"
+              fill
+              className="object-cover"
+            />
+          </div>
+          <div className="w-[37vw] h-[80vh] relative">
+            <Image
+              src="/prodimages/img4.webp"
+              alt="Image 2"
+              fill
+              className="object-cover"
+            />
+          </div>
         </div>
         <div className="flex space-x-[5vw] mb-[10vh]">
-          <img src={Image5.src} className="w-[37vw]" alt="" />
-          <img src={Image6.src} className="w-[37vw]" alt="" />
+          <div className="w-[37vw] h-[80vh] relative">
+            <Image
+              src="/prodimages/img5.webp"
+              alt="Image 2"
+              fill
+              className="object-cover"
+            />
+          </div>
+          <div className="w-[37vw] h-[80vh] relative">
+            <Image
+              src="/prodimages/img6.webp"
+              alt="Image 2"
+              fill
+              className="object-cover"
+            />
+          </div>
         </div>
         <div className="flex space-x-[5vw] mb-[10vh]">
-          <img src={Image7.src} className="w-[37vw]" alt="" />
-          <img src={Image8.src} className="w-[37vw]" alt="" />
+          <div className="w-[37vw] h-[80vh] relative">
+            <Image
+              src="/prodimages/img1.webp"
+              alt="Image 2"
+              fill
+              className="object-cover"
+            />
+          </div>
+          <div className="w-[37vw] h-[80vh] relative">
+            <Image
+              src="/prodimages/img8.webp"
+              alt="Image 2"
+              fill
+              className="object-cover"
+            />
+          </div>
         </div>
         <div className="flex space-x-[5vw] mb-[10vh]">
-          <img src={Image9.src} className="w-[37vw]" alt="" />
-          <img src={Image10.src} className="w-[37vw]" alt="" />
+          <div className="w-[37vw] h-[80vh] relative">
+            <Image
+              src="/prodimages/img9.webp"
+              alt="Image 2"
+              fill
+              className="object-cover"
+            />
+          </div>
+          <div className="w-[37vw] h-[80vh] relative">
+            <Image
+              src="/prodimages/img10.webp"
+              alt="Image 2"
+              fill
+              className="object-cover"
+            />
+          </div>
         </div>
       </div>
     </div>
