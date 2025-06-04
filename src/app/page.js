@@ -335,7 +335,8 @@ export default function Page() {
           <div className="relative w-[28vw] h-[68vh] flex-shrink-0 ml-[5vw] mt-[9vh]">
             <Image src="/img26.webp" alt="" fill className="object-cover" />
           </div>
-          <div className="relative w-[20vw] h-[50vh] flex-shrink-0 border-[2px] border-slate-600 ml-[3vw]">
+          {/* border-[2px] border-slate-600 */}
+          <div className="relative w-[20vw] h-[50vh] flex-shrink-0 ml-[3vw]">
             <Image src="/img8.webp" alt="" fill className="object-cover" />
           </div>
           <div className="flex flex-col ml-[5vw]">
@@ -360,10 +361,12 @@ export default function Page() {
           <div className="relative w-[16vw] h-[35vh] flex-shrink-0 ml-[3vw] mt-[40vh]">
             <Image src="/img1.webp" alt="" fill className="object-cover" />
           </div>
-          <div className="relative w-[30vw] h-[35vh] flex-shrink-0 mb-[40vh] -ml-[10vw] border-[2px] border-slate-600">
+          {/* border-[2px] border-slate-600 */}
+          <div className="relative w-[30vw] h-[35vh] flex-shrink-0 mb-[40vh] -ml-[10vw]">
             <Image src="/img7.webp" alt="" fill className="object-cover" />
           </div>
-          <div className="relative w-[30vw] h-[35vh] flex-shrink-0 -mb-[5vh] -ml-[10vw] border-[2px] border-slate-600">
+          {/* border-[2px] border-slate-600 */}
+          <div className="relative w-[30vw] h-[35vh] flex-shrink-0 -mb-[5vh] -ml-[10vw]">
             <Image src="/img4.webp" alt="" fill className="object-cover" />
           </div>
           <div className="relative w-[30vw] h-[35vh] flex-shrink-0 mt-[42vh] -ml-[10vw]">
@@ -380,7 +383,9 @@ export default function Page() {
           <div className="relative w-[28vw] h-[68vh] flex-shrink-0 ml-[5vw] mt-[9vh]">
             <Image src="/img26.webp" alt="" fill className="object-cover" />
           </div>
-          <div className="relative w-[20vw] h-[50vh] flex-shrink-0 border-[2px] border-slate-600 ml-[3vw]">
+          
+          <div className="relative w-[20vw] h-[50vh] flex-shrink-0  ml-[3vw]">
+            {/* border-[2px] border-slate-600 */}
             <Image src="/img8.webp" alt="" fill className="object-cover" />
           </div>
           <div className="flex flex-col ml-[5vw]">
@@ -405,10 +410,12 @@ export default function Page() {
           <div className="relative w-[16vw] h-[35vh] flex-shrink-0 ml-[3vw] mt-[40vh]">
             <Image src="/img1.webp" alt="" fill className="object-cover" />
           </div>
-          <div className="relative w-[30vw] h-[35vh] flex-shrink-0 mb-[40vh] -ml-[10vw] border-[2px] border-slate-600">
+          {/* border-[2px] border-slate-600 */}
+          <div className="relative w-[30vw] h-[35vh] flex-shrink-0 mb-[40vh] -ml-[10vw]">
             <Image src="/img7.webp" alt="" fill className="object-cover" />
           </div>
-          <div className="relative w-[30vw] h-[35vh] flex-shrink-0 -mb-[5vh] -ml-[10vw] border-[2px] border-slate-600">
+          {/* border-[2px] border-slate-600 */}
+          <div className="relative w-[30vw] h-[35vh] flex-shrink-0 -mb-[5vh] -ml-[10vw]">
             <Image src="/img4.webp" alt="" fill className="object-cover" />
           </div>
           <div className="relative w-[30vw] h-[35vh] flex-shrink-0 mt-[42vh] -ml-[10vw]">
