@@ -101,7 +101,7 @@ export default function Page() {
     const manual = { current: 0 };
 
     const autoScroll = gsap.to(progress, {
-      current: 0,
+      current: 1,
       duration: 45,
       delay: 3.5,
       ease: "none",
