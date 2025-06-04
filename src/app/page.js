@@ -101,7 +101,7 @@ export default function Page() {
     const manual = { current: 0 };
 
     const autoScroll = gsap.to(progress, {
-      current: 1,
+      current: 0,
       duration: 45,
       delay: 3.5,
       ease: "none",
@@ -277,8 +277,6 @@ export default function Page() {
         </div>
       </div>
 
-
-
       {/* LAPTOP VERSION */}
       <div className="hidden sm:block h-screen overflow-hidden">
         <div className="w-screen bg-slate-400 h-[2px] absolute bottom-4">
@@ -332,23 +330,23 @@ export default function Page() {
           style={{ willChange: "transform", marginLeft: "100vw" }}
         >
           {/* --- Premier set --- */}
-          <div className="relative w-[28vw] h-[68vh] flex-shrink-0 ml-[5vw] mt-[9vh]">
-            <Image src="/img26.webp" alt="" fill className="object-cover" />
+          <div className="relative w-[28vw] h-[68vh] flex-shrink-0 ml-[5vw] mt-[7vh]">
+            <Image src="/img8.webp" alt="" fill className="object-cover" />
           </div>
           {/* border-[2px] border-slate-600 */}
           <div className="relative w-[20vw] h-[50vh] flex-shrink-0 ml-[3vw]">
-            <Image src="/img8.webp" alt="" fill className="object-cover" />
+            <Image src="/img26.webp" alt="" fill className="object-cover" />
           </div>
           <div className="flex flex-col ml-[5vw]">
             <div className="flex ml-[6vw] space-x-[1.5vw]">
               <div className="relative w-[15vw] h-[35vh] flex-shrink-0">
-                <Image src="/img23.webp" alt="" fill className="object-cover" />
+                <Image src="/img16.webp" alt="" fill className="object-cover" />
               </div>
               <div className="relative w-[15vw] h-[35vh] flex-shrink-0">
-                <Image src="/img24.webp" alt="" fill className="object-cover" />
+                <Image src="/img6.webp" alt="" fill className="object-cover" />
               </div>
               <div className="relative w-[15vw] h-[35vh] flex-shrink-0">
-                <Image src="/img25.webp" alt="" fill className="object-cover" />
+                <Image src="/img22.webp" alt="" fill className="object-cover" />
               </div>
             </div>
             <div className="relative w-[35vw] h-[38vh] flex-shrink-0 mt-[5vh]">
@@ -359,31 +357,51 @@ export default function Page() {
             <Image src="/img12.webp" alt="" fill className="object-cover" />
           </div>
           <div className="relative w-[16vw] h-[35vh] flex-shrink-0 ml-[3vw] mt-[40vh]">
-            <Image src="/img1.webp" alt="" fill className="object-cover" />
+            <Image src="/img13.webp" alt="" fill className="object-cover" />
           </div>
           {/* border-[2px] border-slate-600 */}
-          <div className="relative w-[30vw] h-[35vh] flex-shrink-0 mb-[40vh] -ml-[10vw]">
+          <div className="relative w-[30vw] h-[33vh] flex-shrink-0 mb-[45vh] -ml-[10vw]">
             <Image src="/img7.webp" alt="" fill className="object-cover" />
           </div>
           {/* border-[2px] border-slate-600 */}
-          <div className="relative w-[30vw] h-[35vh] flex-shrink-0 -mb-[5vh] -ml-[10vw]">
+          <div className="relative w-[30vw] h-[33vh] flex-shrink-0 mt-[35vh] -ml-[15vw]">
             <Image src="/img4.webp" alt="" fill className="object-cover" />
           </div>
-          <div className="relative w-[30vw] h-[35vh] flex-shrink-0 mt-[42vh] -ml-[10vw]">
+          {/* <div className="relative w-[30vw] h-[35vh] flex-shrink-0 mt-[42vh] -ml-[10vw]">
             <Image src="/img17.webp" alt="" fill className="object-cover" />
-          </div>
-          <div className="relative w-[16vw] h-[35vh] flex-shrink-0 mb-[36vh] -ml-[10vw]">
+          </div> */}
+          <div className="relative w-[14vw] h-[30vh] flex-shrink-0 mb-[40vh] -ml-[10vw]">
             <Image src="/img19.webp" alt="" fill className="object-cover" />
           </div>
           <div className="relative w-[22vw] h-[50vh] flex-shrink-0 ml-[4vw]">
             <Image src="/img21.webp" alt="" fill className="object-cover" />
+          </div>
+          <div className="flex flex-col ml-[5vw]">
+
+            <div className="flex space-x-[6.5vw]">
+              <div className="relative w-[35vw] h-[38vh] flex-shrink-0 -mt-[5vh]">
+                <Image src="/img17.webp" alt="" fill className="object-cover" />
+              </div>
+              <div className="relative w-[13vw] h-[30vh] flex-shrink-0">
+                <Image src="/img9.webp" alt="" fill className="object-cover" />
+              </div>
+            </div>
+
+            <div className="flex ml-[8vw] space-x-[2.5vw] mt-[6vh]">
+              <div className="relative w-[25vw] h-[30vh] flex-shrink-0">
+                <Image src="/img23.webp" alt="" fill className="object-cover" />
+              </div>
+              <div className="relative w-[25vw] h-[30vh] flex-shrink-0">
+                <Image src="/img25.webp" alt="" fill className="object-cover" />
+              </div>
+            </div>
           </div>
 
           {/* --- Deuxieme set --- */}
           <div className="relative w-[28vw] h-[68vh] flex-shrink-0 ml-[5vw] mt-[9vh]">
             <Image src="/img26.webp" alt="" fill className="object-cover" />
           </div>
-          
+
           <div className="relative w-[20vw] h-[50vh] flex-shrink-0  ml-[3vw]">
             {/* border-[2px] border-slate-600 */}
             <Image src="/img8.webp" alt="" fill className="object-cover" />
@@ -432,4 +450,3 @@ export default function Page() {
     </div>
   );
 }
-
