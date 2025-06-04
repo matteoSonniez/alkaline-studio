@@ -145,43 +145,6 @@ export default function Page() {
     <div>
       {/* MOBILE VERSION */}
       <div className="block sm:hidden testup">
-        {/* <div className="w-screen h-screen unicDiv2">
-          <div className="relative flex w-screen items-center justify-center h-screen overflow-hidden">
-            <svg
-              className="absolute inset-0 w-full h-full"
-              preserveAspectRatio="none"
-              aria-hidden="true"
-            >
-              <defs>
-                <mask id="imageMask2">
-                  <rect width="100%" height="100%" fill="white" opacity="0" />
-                  <rect
-                    className="mask-rect2"
-                    x="0%"
-                    y="0%"
-                    width="100%"
-                    height="100%"
-                    fill="white"
-                  />
-                </mask>
-              </defs>
-            </svg>
-            <div
-              className="relative w-full h-full"
-              style={{
-                mask: "url(#imageMask2)",
-                WebkitMask: "url(#imageMask2)",
-              }}
-            >
-              <Image
-                src="/img4.webp"
-                alt="Image 2"
-                fill
-                style={{ objectFit: "cover" }}
-              />
-            </div>
-          </div>
-        </div> */}
         <div className="flex flex-col px-[10vw] mt-[15vh]">
           <div className="w-[80vw] relative h-[70vh] mb-[7vh]">
             <Image
@@ -314,6 +277,8 @@ export default function Page() {
         </div>
       </div>
 
+
+
       {/* LAPTOP VERSION */}
       <div className="hidden sm:block h-screen overflow-hidden">
         <div className="w-screen bg-slate-400 h-[2px] absolute bottom-4">
@@ -368,7 +333,7 @@ export default function Page() {
         >
           {/* --- Premier set --- */}
           <div className="relative w-[28vw] h-[68vh] flex-shrink-0 ml-[5vw] mt-[9vh]">
-            <Image src="/img11.webp" alt="" fill className="object-cover" />
+            <Image src="/img26.webp" alt="" fill className="object-cover" />
           </div>
           <div className="relative w-[20vw] h-[50vh] flex-shrink-0 border-[2px] border-slate-600 ml-[3vw]">
             <Image src="/img8.webp" alt="" fill className="object-cover" />
@@ -376,13 +341,13 @@ export default function Page() {
           <div className="flex flex-col ml-[5vw]">
             <div className="flex ml-[6vw] space-x-[1.5vw]">
               <div className="relative w-[15vw] h-[35vh] flex-shrink-0">
-                <Image src="/img14.webp" alt="" fill className="object-cover" />
+                <Image src="/img23.webp" alt="" fill className="object-cover" />
               </div>
               <div className="relative w-[15vw] h-[35vh] flex-shrink-0">
-                <Image src="/img15.webp" alt="" fill className="object-cover" />
+                <Image src="/img24.webp" alt="" fill className="object-cover" />
               </div>
               <div className="relative w-[15vw] h-[35vh] flex-shrink-0">
-                <Image src="/img13.webp" alt="" fill className="object-cover" />
+                <Image src="/img25.webp" alt="" fill className="object-cover" />
               </div>
             </div>
             <div className="relative w-[35vw] h-[38vh] flex-shrink-0 mt-[5vh]">
@@ -410,8 +375,10 @@ export default function Page() {
           <div className="relative w-[22vw] h-[50vh] flex-shrink-0 ml-[4vw]">
             <Image src="/img21.webp" alt="" fill className="object-cover" />
           </div>
+
+          {/* --- Deuxieme set --- */}
           <div className="relative w-[28vw] h-[68vh] flex-shrink-0 ml-[5vw] mt-[9vh]">
-            <Image src="/img11.webp" alt="" fill className="object-cover" />
+            <Image src="/img26.webp" alt="" fill className="object-cover" />
           </div>
           <div className="relative w-[20vw] h-[50vh] flex-shrink-0 border-[2px] border-slate-600 ml-[3vw]">
             <Image src="/img8.webp" alt="" fill className="object-cover" />
@@ -419,13 +386,13 @@ export default function Page() {
           <div className="flex flex-col ml-[5vw]">
             <div className="flex ml-[6vw] space-x-[1.5vw]">
               <div className="relative w-[15vw] h-[35vh] flex-shrink-0">
-                <Image src="/img14.webp" alt="" fill className="object-cover" />
+                <Image src="/img23.webp" alt="" fill className="object-cover" />
               </div>
               <div className="relative w-[15vw] h-[35vh] flex-shrink-0">
-                <Image src="/img15.webp" alt="" fill className="object-cover" />
+                <Image src="/img24.webp" alt="" fill className="object-cover" />
               </div>
               <div className="relative w-[15vw] h-[35vh] flex-shrink-0">
-                <Image src="/img13.webp" alt="" fill className="object-cover" />
+                <Image src="/img25.webp" alt="" fill className="object-cover" />
               </div>
             </div>
             <div className="relative w-[35vw] h-[38vh] flex-shrink-0 mt-[5vh]">
