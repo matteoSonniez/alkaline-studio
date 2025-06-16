@@ -23,7 +23,7 @@ const INSTAGRAM_URL = "https://instagram.com/alkaline.studio";
 const Header = ({ navigatAnime, isDown }) => {
   return (
     <div
-      className={`fixed w-full top-0 pt-[8vh] px-[25vw] justify-between flex transform transition-transform duration-300 ${
+      className={`fixed w-full top-0 pt-[8vh] px-[25vw] justify-between flex items-center transform transition-transform duration-300 ${
         isDown ? "-translate-y-[15vh]" : "translate-y-0"
       }`}
     >
@@ -31,7 +31,7 @@ const Header = ({ navigatAnime, isDown }) => {
         className={`text-black text-[18px] tracking-wider ${poiret.className}`}
         onClick={() => navigatAnime({ path: "/" })}
       >
-        alkaline studio.
+        alkaline studio
       </button>
       <div
         className={`flex space-x-8 text-gray-700 items-center tracking-wider ${
@@ -39,7 +39,7 @@ const Header = ({ navigatAnime, isDown }) => {
         }`}
       >
         <button onClick={() => navigatAnime({ path: "/" })}>
-          photos
+          photography
         </button>
         <button onClick={() => navigatAnime({ path: "/production" })}>
           production

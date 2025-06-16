@@ -157,9 +157,9 @@ function Page() {
         <div className="flex space-x-[5vw] mb-[10vh]">
           <div className="group w-[37vw] h-[80vh] relative overflow-hidden">
             <div className="absolute z-50 w-full top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 text-white text-center text-[38px] opacity-0 group-hover:opacity-100 transition-opacity duration-500">
-              IconMagazine France
+              Icon Magazine France
               <br />
-              1st issue
+              First issue - editorial
             </div>
             <Image
               src="/prodimages/img1.webp"
@@ -171,7 +171,7 @@ function Page() {
 
           <div className="group w-[37vw] h-[80vh] relative overflow-hidden">
             <div className="absolute z-50 w-full top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 text-white text-center text-[38px] opacity-0 group-hover:opacity-100 transition-opacity duration-500">
-              Balanciaga x Lamborghini
+              Balenciaga x Lamborghini
             </div>
             <Image
               src="/prodimages/img11.webp"
@@ -199,7 +199,7 @@ function Page() {
             <div className="absolute z-50 w-full top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 text-white text-center text-[38px] opacity-0 group-hover:opacity-100 transition-opacity duration-500">
               Alicia Keys
               <br />
-              «Stay» music video
+              Stay music video
             </div>
             <Image
               src="/prodimages/img4.webp"
@@ -227,7 +227,7 @@ function Page() {
             <div className="absolute z-50 w-full top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 text-white text-center text-[38px] opacity-0 group-hover:opacity-100 transition-opacity duration-500">
               Jacquemus
               <br />
-              «Le Papier»
+              Le Papier
             </div>
             <Image
               src="/prodimages/img8.webp"
@@ -242,7 +242,7 @@ function Page() {
             <div className="absolute z-50 w-full top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 text-white text-center text-[38px] opacity-0 group-hover:opacity-100 transition-opacity duration-500">
               L'Occitane
               <br />
-              «Osmanthus» Campaign
+              Osmanthus Campaign
             </div>
             <Image
               src="/prodimages/img9.webp"
@@ -253,9 +253,9 @@ function Page() {
           </div>
           <div className="group w-[37vw] h-[80vh] relative overflow-hidden">
             <div className="absolute z-50 w-full top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 text-white text-center text-[38px] opacity-0 group-hover:opacity-100 transition-opacity duration-500">
-              IconMagazine France
+              ISonia Rykiel
               <br />
-              1st issue
+              SS24
             </div>
             <Image
               src="/prodimages/img10.webp"

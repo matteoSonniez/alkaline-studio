@@ -29,7 +29,7 @@ const poiret = Inconsolata({
 const Header = ({ navigatAnime, isDown }) => {
   return (
     <div
-      className={`fixed w-full top-0 pt-[8vh] px-[25vw] justify-between flex transform transition-transform duration-300 ${
+      className={`fixed w-full top-0 pt-[8vh] px-[25vw] justify-between flex items-center transform transition-transform duration-300 ${
         isDown ? "-translate-y-[20vh]" : "translate-y-0"
       }`}
     >
