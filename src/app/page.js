@@ -202,9 +202,9 @@ export default function Page() {
               className="object-cover"
             />
           </div>
-          <div className="w-[80vw] relative h-[70vh] mb-[7vh]">
+          <div className="w-[80vw] relative h-[67vh] mb-[7vh]">
             <Image
-              src="/img29.webp"
+              src="/img31.webp"
               alt="Image 2"
               fill
               className="object-cover"
@@ -375,7 +375,7 @@ export default function Page() {
             <Image src="/img19.webp" alt="" fill className="object-cover" />
           </div>
           <div className="relative w-[22vw] h-[50vh] flex-shrink-0 ml-[4vw]">
-            <Image src="/img29.webp" alt="" fill className="object-cover" />
+            <Image src="/img31.webp" alt="" fill className="object-cover" />
           </div>
           <div className="relative w-[28vw] h-[63vh] flex-shrink-0 ml-[4vw]">
             <Image src="/img21.webp" alt="" fill className="object-cover" />
@@ -446,7 +446,7 @@ export default function Page() {
             <Image src="/img19.webp" alt="" fill className="object-cover" />
           </div>
           <div className="relative w-[22vw] h-[50vh] flex-shrink-0 ml-[4vw]">
-            <Image src="/img29.webp" alt="" fill className="object-cover" />
+            <Image src="/img31.webp" alt="" fill className="object-cover" />
           </div>
           <div className="relative w-[28vw] h-[63vh] flex-shrink-0 ml-[4vw]">
             <Image src="/img21.webp" alt="" fill className="object-cover" />
