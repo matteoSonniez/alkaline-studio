@@ -90,6 +90,10 @@ const Index = ({navigatAnime}) => {
         className={`flex space-x-4 text-gray-700 text-[11px] items-center tracking-wider ${incon.className}`}
       >
         <Link href="/production">
+          <span>photos</span>
+        </Link>
+        
+        <Link href="/production">
           <span>production</span>
         </Link>
         {/* <button onClick={() => navigatAnime({ path: "/production" })}>
