@@ -36,10 +36,33 @@ function Page() {
     return () => lenis.destroy();
   }, []);
 
-  
   return (
-    <div className={`${ral.className} flex flex-col items-center pt-[17vh]`}>
-      <span className="text-black">test</span>
+    <div
+      className={`${ral.className} flex items-center pt-[22vh] px-[15vw] space-x-20 justify-center`}
+    >
+      <div className="w-[30vw] h-[64vh] relative">
+        <Image
+          src="/imgcontact.webp"
+          alt="Image 2"
+          fill
+          className="object-cover transition duration-500 group-hover:[filter:brightness(85%)]"
+        />
+      </div>
+      <div className="flex flex-col">
+        <span className="text-black/90 mb-12">
+          freelance photographer & producer assistant
+        </span>
+        <span className="text-black/80 mb-12">Paris - marseille</span>
+        <a className="text-black/80 mb-3 hover:text-black/50" href="mailto:contact.alkaaaline@gmail.com">contact.alkaaaline@gmail.com</a>
+        <a
+          className="text-black/80 hover:text-black/50"
+          href="https://www.instagram.com/alkaline.studio/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          @alkaline.studio
+        </a>
+      </div>
     </div>
   );
 }

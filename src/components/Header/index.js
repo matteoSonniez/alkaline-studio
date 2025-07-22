@@ -45,7 +45,7 @@ const Header = ({ navigatAnime, isDown }) => {
           production
         </button>
         <button onClick={() => navigatAnime({ path: "/contact" })}>
-          contact
+          about
         </button>
         {/* Lien Instagram */}
         <a

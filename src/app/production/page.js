@@ -34,16 +34,25 @@ function Page() {
   
   const IMAGES = [
     {
-      src: "/prodimages/img1.webp",
-      alt: "Icon Magazine France – First issue editorial",
+      src: "/prodimages/img12.webp",
+      alt: "Dior - SS26 ",
       title: (
         <>
-          Icon Magazine France
-          <br />
-          first issue – editorial
+          Dior - SS26 
         </>
       ),
     },
+    // {
+    //   src: "/prodimages/img1.webp",
+    //   alt: "Icon Magazine France – First issue editorial",
+    //   title: (
+    //     <>
+    //       Icon Magazine France
+    //       <br />
+    //       first issue – editorial
+    //     </>
+    //   ),
+    // },
     {
       src: "/prodimages/img11.webp",
       alt: "Balenciaga x Lamborghini",
@@ -182,7 +191,7 @@ function Page() {
       {/* version desktop */}
       <div className="flex-col hidden sm:block">
         <div className="flex space-x-[5vw] mb-[10vh]">
-          <div className="group w-[37vw] h-[80vh] relative overflow-hidden">
+          {/* <div className="group w-[37vw] h-[80vh] relative overflow-hidden">
             <div className="absolute z-50 w-full top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 text-white text-center text-[38px] opacity-0 group-hover:opacity-100 transition-opacity duration-500">
               Icon Magazine France
               <br />
@@ -190,6 +199,17 @@ function Page() {
             </div>
             <Image
               src="/prodimages/img1.webp"
+              alt="Image 2"
+              fill
+              className="object-cover transition duration-500 group-hover:[filter:brightness(85%)]"
+            />
+          </div> */}
+          <div className="group w-[37vw] h-[80vh] relative overflow-hidden">
+            <div className="absolute z-50 w-full top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 text-white text-center text-[38px] opacity-0 group-hover:opacity-100 transition-opacity duration-500">
+              Dior - SS26 
+            </div>
+            <Image
+              src="/prodimages/img12.webp"
               alt="Image 2"
               fill
               className="object-cover transition duration-500 group-hover:[filter:brightness(85%)]"

@@ -100,7 +100,7 @@ const Index = ({navigatAnime}) => {
           production
         </button> */}
         <Link href="/contact">
-          <span>contact</span>
+          <span>about</span>
         </Link>
         <button
           onClick={handleInstaClick}
