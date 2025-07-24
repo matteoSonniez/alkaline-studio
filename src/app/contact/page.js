@@ -2,6 +2,8 @@
 import React, { useState, useEffect, useRef } from "react";
 import Image from "next/image";
 import Lenis from "@studio-freight/lenis";
+import Email from "@/img/email.png";
+import Insta from "@/img/insta.png";
 import { Poppins, Raleway } from "next/font/google";
 
 const poppins = Poppins({
@@ -40,7 +42,7 @@ function Page() {
     <div
       className={`${ral.className} flex items-center pt-[22vh] px-[15vw] space-x-20 justify-center`}
     >
-      <div className="w-[30vw] h-[64vh] relative">
+      <div className="w-[400px] h-[500px] relative">
         <Image
           src="/imgcontact.webp"
           alt="Image 2"
@@ -49,19 +51,33 @@ function Page() {
         />
       </div>
       <div className="flex flex-col">
-        <span className="text-black/90 mb-12">
+        <span className="text-black/90 mb-14">
           freelance photographer & producer assistant
         </span>
-        <span className="text-black/80 mb-12">Paris - marseille</span>
-        <a className="text-black/80 mb-3 hover:text-black/50" href="mailto:contact.alkaaaline@gmail.com">contact.alkaaaline@gmail.com</a>
-        <a
-          className="text-black/80 hover:text-black/50"
-          href="https://www.instagram.com/alkaline.studio/"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          @alkaline.studio
-        </a>
+        <span className="text-black/80 mb-14">
+          {" "}
+          Based between Paris - marseille
+        </span>
+        <div className="flex items-center mb-4 space-x-3">
+          <img src={Email.src} className="w-4 h-4"></img>
+          <a
+            className="text-black/80 hover:text-black/50"
+            href="mailto:contact.alkaaaline@gmail.com"
+          >
+            contact.alkaaaline@gmail.com
+          </a>
+        </div>
+        <div className="flex items-center mb-4 space-x-3">
+          <img src={Insta.src} className="w-5 h-5"></img>
+          <a
+            className="text-black/80 hover:text-black/50"
+            href="https://www.instagram.com/alkaline.studio/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            alkaline.studio
+          </a>
+        </div>
       </div>
     </div>
   );

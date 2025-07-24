@@ -41,9 +41,9 @@ const Header = ({ navigatAnime, isDown }) => {
         <button onClick={() => navigatAnime({ path: "/" })}>
           photography
         </button>
-        <button onClick={() => navigatAnime({ path: "/production" })}>
+        {/* <button onClick={() => navigatAnime({ path: "/production" })}>
           production
-        </button>
+        </button> */}
         <button onClick={() => navigatAnime({ path: "/contact" })}>
           about
         </button>
