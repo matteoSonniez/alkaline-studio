@@ -179,10 +179,10 @@ export default function Page() {
             className="object-cover"
           />
         </div>
-        <div className="w-[68vw] relative h-[45vh] self-end mb-[7vh]">
+        <div className="w-[90vw] relative h-[31vh] self-center mb-[7vh]">
           <Image
-            src="/img34.webp"
-            alt="Image 15"
+            src="/img5.webp"
+            alt="Image 25"
             fill
             className="object-cover"
           />
@@ -195,10 +195,10 @@ export default function Page() {
             className="object-cover"
           />
         </div>
-        <div className="w-[90vw] relative h-[31vh] self-center mb-[7vh]">
+        <div className="w-[68vw] relative h-[45vh] self-end mb-[7vh]">
           <Image
-            src="/img5.webp"
-            alt="Image 25"
+            src="/img34.webp"
+            alt="Image 15"
             fill
             className="object-cover"
           />
@@ -219,7 +219,7 @@ export default function Page() {
             className="object-cover"
           />
         </div>
-        <div className="w-[80vw] relative h-[35vh] mb-[5vh]">
+        <div className="w-[80vw] relative h-[32vh] mb-[5vh]">
           <Image
             src="/img32.webp"
             alt="Image 28"
