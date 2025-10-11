@@ -144,49 +144,123 @@ export default function Page() {
     return (
       <div className="flex flex-col px-[10vw] mt-[15vh] testup">
         <div className="w-[80vw] relative h-[70vh] mb-[7vh]">
-          <Image priority src="/img11.webp" alt="Image 11" fill className="object-cover" />
+          <Image
+            priority
+            src="/img11.webp"
+            alt="Image 11"
+            fill
+            className="object-cover"
+          />
         </div>
         <div className="w-[65vw] relative h-[50vh] mb-[7vh]">
-          <Image  src="/img18.webp" alt="Image 18" fill className="object-cover" />
+          <Image
+            src="/img18.webp"
+            alt="Image 18"
+            fill
+            className="object-cover"
+          />
         </div>
         <div className="w-[80vw] relative h-[65vh] mb-[7vh]">
-          <Image  src="/img12.webp" alt="Image 12" fill className="object-cover" />
+          <Image
+            src="/img12.webp"
+            alt="Image 12"
+            fill
+            className="object-cover"
+          />
         </div>
         <div className="w-[90vw] relative h-[35vh] self-center mb-[7vh]">
           <Image src="/img5.webp" alt="Image 5" fill className="object-cover" />
         </div>
         <div className="w-[65vw] relative h-[45vh] mb-[7vh]">
-          <Image src="/img27.webp" alt="Image 27" fill className="object-cover" />
+          <Image
+            src="/img27.webp"
+            alt="Image 27"
+            fill
+            className="object-cover"
+          />
         </div>
         <div className="w-[55vw] relative h-[45vh] self-end mb-[7vh]">
-          <Image src="/img15.webp" alt="Image 15" fill className="object-cover" />
+          <Image
+            src="/img33.webp"
+            alt="Image 15"
+            fill
+            className="object-cover"
+          />
         </div>
         <div className="w-[90vw] relative h-[45vh] self-center mb-[7vh]">
-          <Image src="/img25.webp" alt="Image 25" fill className="object-cover" />
+          <Image
+            src="/img25.webp"
+            alt="Image 25"
+            fill
+            className="object-cover"
+          />
+        </div>
+        <div className="w-[90vw] relative h-[35vh] self-center mb-[7vh]">
+          <Image
+            src="/img35.webp"
+            alt="Image 25"
+            fill
+            className="object-cover"
+          />
         </div>
         <div className="w-[80vw] relative h-[67vh] mb-[7vh]">
-          <Image src="/img31.webp" alt="Image 31" fill className="object-cover" />
+          <Image
+            src="/img31.webp"
+            alt="Image 31"
+            fill
+            className="object-cover"
+          />
         </div>
         <div className="w-[65vw] relative h-[53vh] mb-[7vh]">
-          <Image src="/img2.webp" alt="Image 2" fill className="object-cover" />
+          <Image
+            src="/img34.webp"
+            alt="Image 2"
+            fill
+            className="object-cover"
+          />
         </div>
-        <div className="w-[80vw] relative h-[65vh] mb-[5vh]">
-          <Image src="/img28.webp" alt="Image 28" fill className="object-cover" />
+        <div className="w-[80vw] relative h-[35vh] mb-[5vh]">
+          <Image
+            src="/img32.webp"
+            alt="Image 28"
+            fill
+            className="object-cover"
+          />
         </div>
         <div className="w-[80vw] relative h-[65vh] mb-[3vh]">
-          <Image src="/img19.webp" alt="Image 19" fill className="object-cover" />
+          <Image
+            src="/img19.webp"
+            alt="Image 19"
+            fill
+            className="object-cover"
+          />
         </div>
         <div className="w-[80vw] relative h-[65vh] mb-[5vh] self-center">
           <Image src="/img8.webp" alt="Image 8" fill className="object-cover" />
         </div>
         <div className="w-[65vw] relative h-[52vh] mb-[7vh] self-center">
-          <Image src="/img26.webp" alt="Image 26" fill className="object-cover" />
+          <Image
+            src="/img26.webp"
+            alt="Image 26"
+            fill
+            className="object-cover"
+          />
         </div>
         <div className="w-[95vw] relative h-[35vh] mb-[9vh] self-center">
-          <Image src="/img17.webp" alt="Image 17" fill className="object-cover" />
+          <Image
+            src="/img17.webp"
+            alt="Image 17"
+            fill
+            className="object-cover"
+          />
         </div>
         <div className="w-[80vw] relative h-[65vh] mb-[3vh]">
-          <Image src="/img21.webp" alt="Image 21" fill className="object-cover" />
+          <Image
+            src="/img21.webp"
+            alt="Image 21"
+            fill
+            className="object-cover"
+          />
         </div>
         <div className="w-[95vw] relative h-[35vh] mb-[9vh] self-center">
           <Image src="/img7.webp" alt="Image 7" fill className="object-cover" />
@@ -251,126 +325,312 @@ export default function Page() {
       >
         {/* --- Premier set --- */}
         <div className="relative w-[28vw] h-[68vh] flex-shrink-0 ml-[5vw] mt-[7vh]">
-          <Image src="/img12.webp" alt="Image 12" fill className="object-cover" />
+          <Image
+            src="/img12.webp"
+            alt="Image 12"
+            fill
+            className="object-cover"
+          />
         </div>
         <div className="relative w-[20vw] h-[50vh] flex-shrink-0 ml-[3vw]">
-          <Image src="/img26.webp" alt="Image 26" fill className="object-cover" />
+          <Image
+            src="/img26.webp"
+            alt="Image 26"
+            fill
+            className="object-cover"
+          />
         </div>
         <div className="flex flex-col ml-[5vw]">
           <div className="flex ml-[6vw] space-x-[1.5vw]">
             <div className="relative w-[15vw] h-[35vh] flex-shrink-0">
-              <Image src="/img16.webp" alt="Image 16" fill className="object-cover" />
+              <Image
+                src="/img16.webp"
+                alt="Image 16"
+                fill
+                className="object-cover"
+              />
             </div>
             <div className="relative w-[15vw] h-[35vh] flex-shrink-0">
-              <Image src="/img6.webp" alt="Image 6" fill className="object-cover" />
+              <Image
+                src="/img6.webp"
+                alt="Image 6"
+                fill
+                className="object-cover"
+              />
             </div>
             <div className="relative w-[15vw] h-[35vh] flex-shrink-0">
-              <Image src="/img22.webp" alt="Image 22" fill className="object-cover" />
+              <Image
+                src="/img22.webp"
+                alt="Image 22"
+                fill
+                className="object-cover"
+              />
             </div>
           </div>
           <div className="relative w-[35vw] h-[38vh] flex-shrink-0 mt-[5vh]">
-            <Image src="/img5.webp" alt="Image 5" fill className="object-cover" />
+            <Image
+              src="/img5.webp"
+              alt="Image 5"
+              fill
+              className="object-cover"
+            />
           </div>
         </div>
         <div className="relative w-[28vw] h-[65vh] flex-shrink-0 ml-[3vw]">
           <Image src="/img8.webp" alt="Image 8" fill className="object-cover" />
         </div>
         <div className="relative w-[16vw] h-[35vh] flex-shrink-0 ml-[3vw] mt-[40vh]">
-          <Image src="/img13.webp" alt="Image 13" fill className="object-cover" />
+          <Image
+            src="/img33.webp"
+            alt="Image 13"
+            fill
+            className="object-cover"
+          />
         </div>
         <div className="relative w-[30vw] h-[33vh] flex-shrink-0 mb-[45vh] -ml-[10vw]">
           <Image src="/img7.webp" alt="Image 7" fill className="object-cover" />
         </div>
         <div className="relative w-[30vw] h-[33vh] flex-shrink-0 mt-[35vh] -ml-[15vw]">
-          <Image src="/img4.webp" alt="Image 4" fill className="object-cover" />
+          <Image
+            src="/img32.webp"
+            alt="Image 4"
+            fill
+            className="object-cover"
+          />
         </div>
         <div className="relative w-[14vw] h-[30vh] flex-shrink-0 mb-[40vh] -ml-[10vw]">
-          <Image src="/img19.webp" alt="Image 19" fill className="object-cover" />
+          <Image
+            src="/img19.webp"
+            alt="Image 19"
+            fill
+            className="object-cover"
+          />
         </div>
         <div className="relative w-[22vw] h-[50vh] flex-shrink-0 ml-[4vw]">
-          <Image src="/img31.webp" alt="Image 31" fill className="object-cover" />
+          <Image
+            src="/img31.webp"
+            alt="Image 31"
+            fill
+            className="object-cover"
+          />
+        </div>
+        <div className="flex flex-col space-y-10 ml-[5vw]">
+          <div className="relative w-[18vw] h-[40vh] flex-shrink-0 ml-[3vw]">
+            <Image
+              src="/img34.webp"
+              alt="Image 31"
+              fill
+              className="object-cover"
+            />
+          </div>
+          <div className="relative w-[30vw] h-[30vh] flex-shrink-0">
+            <Image
+              src="/img35.webp"
+              alt="Image 31"
+              fill
+              className="object-cover"
+            />
+          </div>
         </div>
         <div className="relative w-[28vw] h-[63vh] flex-shrink-0 ml-[4vw]">
-          <Image src="/img21.webp" alt="Image 21" fill className="object-cover" />
+          <Image
+            src="/img21.webp"
+            alt="Image 21"
+            fill
+            className="object-cover"
+          />
         </div>
         <div className="flex flex-col ml-[5vw]">
           <div className="flex space-x-[6.5vw]">
             <div className="relative w-[35vw] h-[38vh] flex-shrink-0 -mt-[5vh]">
-              <Image src="/img17.webp" alt="Image 17" fill className="object-cover" />
+              <Image
+                src="/img17.webp"
+                alt="Image 17"
+                fill
+                className="object-cover"
+              />
             </div>
             <div className="relative w-[13vw] h-[30vh] flex-shrink-0">
-              <Image src="/img9.webp" alt="Image 9" fill className="object-cover" />
+              <Image
+                src="/img9.webp"
+                alt="Image 9"
+                fill
+                className="object-cover"
+              />
             </div>
           </div>
           <div className="flex ml-[8vw] space-x-[2.5vw] mt-[6vh]">
             <div className="relative w-[25vw] h-[30vh] flex-shrink-0">
-              <Image src="/img23.webp" alt="Image 23" fill className="object-cover" />
+              <Image
+                src="/img23.webp"
+                alt="Image 23"
+                fill
+                className="object-cover"
+              />
             </div>
             <div className="relative w-[25vw] h-[30vh] flex-shrink-0">
-              <Image src="/img25.webp" alt="Image 25" fill className="object-cover" />
+              <Image
+                src="/img25.webp"
+                alt="Image 25"
+                fill
+                className="object-cover"
+              />
             </div>
           </div>
         </div>
 
         {/* --- Deuxième set (identique au premier) --- */}
         <div className="relative w-[28vw] h-[68vh] flex-shrink-0 ml-[5vw] mt-[7vh]">
-          <Image src="/img12.webp" alt="Image 12" fill className="object-cover" />
+          <Image
+            src="/img12.webp"
+            alt="Image 12"
+            fill
+            className="object-cover"
+          />
         </div>
         <div className="relative w-[20vw] h-[50vh] flex-shrink-0 ml-[3vw]">
-          <Image src="/img26.webp" alt="Image 26" fill className="object-cover" />
+          <Image
+            src="/img26.webp"
+            alt="Image 26"
+            fill
+            className="object-cover"
+          />
         </div>
         <div className="flex flex-col ml-[5vw]">
           <div className="flex ml-[6vw] space-x-[1.5vw]">
             <div className="relative w-[15vw] h-[35vh] flex-shrink-0">
-              <Image src="/img16.webp" alt="Image 16" fill className="object-cover" />
+              <Image
+                src="/img16.webp"
+                alt="Image 16"
+                fill
+                className="object-cover"
+              />
             </div>
             <div className="relative w-[15vw] h-[35vh] flex-shrink-0">
-              <Image src="/img6.webp" alt="Image 6" fill className="object-cover" />
+              <Image
+                src="/img6.webp"
+                alt="Image 6"
+                fill
+                className="object-cover"
+              />
             </div>
             <div className="relative w-[15vw] h-[35vh] flex-shrink-0">
-              <Image src="/img22.webp" alt="Image 22" fill className="object-cover" />
+              <Image
+                src="/img22.webp"
+                alt="Image 22"
+                fill
+                className="object-cover"
+              />
             </div>
           </div>
           <div className="relative w-[35vw] h-[38vh] flex-shrink-0 mt-[5vh]">
-            <Image src="/img5.webp" alt="Image 5" fill className="object-cover" />
+            <Image
+              src="/img5.webp"
+              alt="Image 5"
+              fill
+              className="object-cover"
+            />
           </div>
         </div>
         <div className="relative w-[28vw] h-[65vh] flex-shrink-0 ml-[3vw]">
           <Image src="/img8.webp" alt="Image 8" fill className="object-cover" />
         </div>
         <div className="relative w-[16vw] h-[35vh] flex-shrink-0 ml-[3vw] mt-[40vh]">
-          <Image src="/img13.webp" alt="Image 13" fill className="object-cover" />
+          <Image
+            src="/img33.webp"
+            alt="Image 13"
+            fill
+            className="object-cover"
+          />
         </div>
         <div className="relative w-[30vw] h-[33vh] flex-shrink-0 mb-[45vh] -ml-[10vw]">
           <Image src="/img7.webp" alt="Image 7" fill className="object-cover" />
         </div>
         <div className="relative w-[30vw] h-[33vh] flex-shrink-0 mt-[35vh] -ml-[15vw]">
-          <Image src="/img4.webp" alt="Image 4" fill className="object-cover" />
+          <Image
+            src="/img32.webp"
+            alt="Image 4"
+            fill
+            className="object-cover"
+          />
         </div>
         <div className="relative w-[14vw] h-[30vh] flex-shrink-0 mb-[40vh] -ml-[10vw]">
-          <Image src="/img19.webp" alt="Image 19" fill className="object-cover" />
+          <Image
+            src="/img19.webp"
+            alt="Image 19"
+            fill
+            className="object-cover"
+          />
         </div>
         <div className="relative w-[22vw] h-[50vh] flex-shrink-0 ml-[4vw]">
-          <Image src="/img31.webp" alt="Image 31" fill className="object-cover" />
+          <Image
+            src="/img31.webp"
+            alt="Image 31"
+            fill
+            className="object-cover"
+          />
+        </div>
+        <div className="flex flex-col space-y-10 ml-[5vw]">
+          <div className="relative w-[18vw] h-[40vh] flex-shrink-0 ml-[3vw]">
+            <Image
+              src="/img34.webp"
+              alt="Image 31"
+              fill
+              className="object-cover"
+            />
+          </div>
+          <div className="relative w-[30vw] h-[30vh] flex-shrink-0">
+            <Image
+              src="/img35.webp"
+              alt="Image 31"
+              fill
+              className="object-cover"
+            />
+          </div>
         </div>
         <div className="relative w-[28vw] h-[63vh] flex-shrink-0 ml-[4vw]">
-          <Image src="/img21.webp" alt="Image 21" fill className="object-cover" />
+          <Image
+            src="/img21.webp"
+            alt="Image 21"
+            fill
+            className="object-cover"
+          />
         </div>
         <div className="flex flex-col ml-[5vw]">
           <div className="flex space-x-[6.5vw]">
             <div className="relative w-[35vw] h-[38vh] flex-shrink-0 -mt-[5vh]">
-              <Image src="/img17.webp" alt="Image 17" fill className="object-cover" />
+              <Image
+                src="/img17.webp"
+                alt="Image 17"
+                fill
+                className="object-cover"
+              />
             </div>
             <div className="relative w-[13vw] h-[30vh] flex-shrink-0">
-              <Image src="/img9.webp" alt="Image 9" fill className="object-cover" />
+              <Image
+                src="/img9.webp"
+                alt="Image 9"
+                fill
+                className="object-cover"
+              />
             </div>
           </div>
           <div className="flex ml-[8vw] space-x-[2.5vw] mt-[6vh]">
             <div className="relative w-[25vw] h-[30vh] flex-shrink-0">
-              <Image src="/img23.webp" alt="Image 23" fill className="object-cover" />
+              <Image
+                src="/img23.webp"
+                alt="Image 23"
+                fill
+                className="object-cover"
+              />
             </div>
             <div className="relative w-[25vw] h-[30vh] flex-shrink-0">
-              <Image src="/img25.webp" alt="Image 25" fill className="object-cover" />
+              <Image
+                src="/img25.webp"
+                alt="Image 25"
+                fill
+                className="object-cover"
+              />
             </div>
           </div>
         </div>
