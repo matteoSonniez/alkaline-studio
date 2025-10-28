@@ -38,9 +38,9 @@ const Header = ({ navigatAnime, isDown }) => {
           poiret.className
         }`}
       >
-        <button onClick={() => navigatAnime({ path: "/" })}>
+        {/* <button onClick={() => navigatAnime({ path: "/" })}>
           photography
-        </button>
+        </button> */}
         {/* <button onClick={() => navigatAnime({ path: "/production" })}>
           production
         </button> */}

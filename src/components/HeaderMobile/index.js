@@ -89,9 +89,9 @@ const Index = ({navigatAnime}) => {
       <div
         className={`flex space-x-4 text-gray-700 text-[11px] items-center tracking-wider ${incon.className}`}
       >
-        <Link href="/production">
+        {/* <Link href="/production">
           <span>photos</span>
-        </Link>
+        </Link> */}
         
         {/* <Link href="/production">
           <span>production</span>
