@@ -4,19 +4,6 @@ import React, { useState, useEffect, useRef } from "react";
 import Image from "next/image";
 import Lenis from "@studio-freight/lenis";
 import { Card } from "@/components/ProdCard";
-import { Poppins, Raleway } from "next/font/google";
-
-const poppins = Poppins({
-  subsets: ["latin"],
-  weight: ["400"],
-  display: "swap",
-});
-
-const ral = Raleway({
-  subsets: ["latin"],
-  weight: ["400"],
-  display: "swap",
-});
 
 function Page() {
   const [isVisible, setIsVisible] = useState(false);
@@ -173,7 +160,7 @@ function Page() {
 
   return (
     <div
-      className={`${ral.className} flex flex-col items-center pt-[13vh] sm:pt-[17vh]`}
+      className={`flex flex-col items-center pt-[13vh] sm:pt-[17vh]`}
     >
       {/* version mobile */}
       <div className="flex flex-col space-y-6 pb-10 sm:hidden">

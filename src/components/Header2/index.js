@@ -1,30 +1,7 @@
 "use client";
 import { useEffect, useState } from "react";
 import Link from "next/link";
-import {
-  Poppins,
-  Inter,
-  PT_Mono,
-  Cormorant_SC,
-  Caveat,
-  Freehand,
-  Poiret_One,
-  Inconsolata,
-  Raleway,
-} from "next/font/google";
 import Insta from "@/img/insta.png";
-
-const poppins = Freehand({
-  subsets: ["latin"],
-  weight: ["400"],
-  display: "swap",
-});
-
-const poiret = Inconsolata({
-  subsets: ["latin"],
-  weight: ["300"],
-  display: "swap",
-});
 
 const Header = ({ navigatAnime, isDown }) => {
   return (
@@ -34,15 +11,13 @@ const Header = ({ navigatAnime, isDown }) => {
       }`}
     >
       <button
-        className={`text-black text-[18px] tracking-wider ${poiret.className}`}
+        className={`text-black text-[18px] tracking-wider`}
         onClick={() => navigatAnime({ path: "/" })}
       >
         alkaline studio.
       </button>
       <div
-        className={`flex space-x-8 text-gray-700 items-center tracking-wider ${
-          poiret.className
-        }`}
+        className={`flex space-x-8 text-gray-700 items-center tracking-wider`}
       >
         <button onClick={() => navigatAnime({ path: "/production" })}>
           production

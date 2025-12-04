@@ -4,25 +4,13 @@ import { useState, useEffect, useRef } from "react";
 import "./globals.css";
 import { useRouter } from "next/navigation";
 import gsap from "gsap";
-import { Geist, Geist_Mono } from "next/font/google";
 import { usePathname } from "next/navigation";
 import TheHeader from "@/components/Header/index";
 import TheHeaderMobile from "@/components/HeaderMobile";
-import { Poppins } from "next/font/google";
+import localFont from "next/font/local";
 
-const geistSans = Geist({
-  variable: "--font-geist-sans",
-  subsets: ["latin"],
-});
-
-const geistMono = Geist_Mono({
-  variable: "--font-geist-mono",
-  subsets: ["latin"],
-});
-
-const poppins = Poppins({
-  subsets: ["latin"],
-  weight: ["400", "500", "700"],
+const appFont = localFont({
+  src: "../../public/font/LiberationSerif-Regular.ttf",
   display: "swap",
 });
 
@@ -79,7 +67,7 @@ export default function RootLayout({ children }) {
 
   return (
     <html lang="en">
-      <body className={`${geistSans.variable} ${poppins.variable} bg-blanc`}>
+      <body className={`${appFont.className} bg-blanc`}>
         <svg
           className="overlay absolute inset-0 z-40 pointer-events-none h-screen w-screen"
           viewBox="0 0 100 100"

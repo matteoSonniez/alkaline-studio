@@ -1,22 +1,6 @@
 "use client";
 import { useEffect, useState } from "react";
-import {
-  Freehand,
-  Inconsolata,
-} from "next/font/google";
 import Insta from "@/img/insta.png";
-
-const poppins = Freehand({
-  subsets: ["latin"],
-  weight: ["400"],
-  display: "swap",
-});
-
-const poiret = Inconsolata({
-  subsets: ["latin"],
-  weight: ["300"],
-  display: "swap",
-});
 
 const INSTAGRAM_URL = "https://instagram.com/alkaline.studio";
 
@@ -28,15 +12,13 @@ const Header = ({ navigatAnime, isDown }) => {
       }`}
     >
       <button
-        className={`text-black text-[18px] tracking-wider ${poiret.className}`}
+        className={`text-black text-[18px] tracking-wider`}
         onClick={() => navigatAnime({ path: "/" })}
       >
         alkaline studio
       </button>
       <div
-        className={`flex space-x-8 text-gray-700 items-center tracking-wider ${
-          poiret.className
-        }`}
+        className={`flex space-x-8 text-gray-700 items-center tracking-wider`}
       >
         {/* <button onClick={() => navigatAnime({ path: "/" })}>
           photography

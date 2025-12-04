@@ -14,9 +14,6 @@ module.exports = {
         gris: "#EBEAE7",
         blanc: "#F7F6F5",
       },
-      fontFamily: {
-        poppins: ["var(--font-poppins)"],
-      },
     },
   },
   plugins: [],

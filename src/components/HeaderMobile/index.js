@@ -1,24 +1,7 @@
 "use client";
 import { useEffect, useState } from "react";
 import Link from "next/link";
-import {
-  Freehand,
-  Poiret_One,
-  Inconsolata,
-} from "next/font/google";
 import Insta from "@/img/insta.png";
-
-const poppins = Freehand({
-  subsets: ["latin"],
-  weight: ["400"],
-  display: "swap",
-});
-
-const incon = Inconsolata({
-  subsets: ["latin"],
-  weight: ["400"],
-  display: "swap",
-});
 
 const INSTAGRAM_USERNAME = "alkaline.studio"; // ← Remplacez par votre nom d'utilisateur
 const APP_URL = `instagram://user?username=${INSTAGRAM_USERNAME}`;
@@ -82,12 +65,12 @@ const Index = ({navigatAnime}) => {
       `}
     >
       <Link href="/" className="flex items-center">
-        <span className={`text-black text-[13px] tracking-wider ${incon.className}`}>
+        <span className={`text-black text-[13px] tracking-wider`}>
           alkaline studio
         </span>
       </Link>
       <div
-        className={`flex space-x-4 text-gray-700 text-[11px] items-center tracking-wider ${incon.className}`}
+        className={`flex space-x-4 text-gray-700 text-[11px] items-center tracking-wider`}
       >
         {/* <Link href="/production">
           <span>photos</span>

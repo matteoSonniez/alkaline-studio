@@ -4,13 +4,6 @@ import Image from "next/image";
 import Lenis from "@studio-freight/lenis";
 import Email from "@/img/email.png";
 import Insta from "@/img/insta.png";
-import { Raleway } from "next/font/google";
-
-const ral = Raleway({
-  subsets: ["latin"],
-  weight: ["400"],
-  display: "swap",
-});
 
 function Page() {
   useEffect(() => {
@@ -32,7 +25,7 @@ function Page() {
 
   return (
     <div
-      className={`${ral.className} flex flex-col md:flex-row items-center justify-center pt-[16vh] md:pt-[22vh] px-6 sm:px-10 md:px-[15vw] gap-8 md:gap-20`}
+      className={`flex flex-col md:flex-row items-center justify-center pt-[16vh] md:pt-[22vh] px-6 sm:px-10 md:px-[15vw] gap-8 md:gap-20`}
     >
       <div className="relative w-full h-[50vh] sm:h-[60vh] md:w-[400px] md:h-[500px]">
         <Image
