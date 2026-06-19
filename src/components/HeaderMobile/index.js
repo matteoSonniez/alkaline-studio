@@ -76,9 +76,9 @@ const Index = ({navigatAnime}) => {
           <span>photos</span>
         </Link> */}
         
-        {/* <Link href="/production">
+        <Link href="/production">
           <span>production</span>
-        </Link> */}
+        </Link>
         <Link href="/contact">
           <span>about</span>
         </Link>
